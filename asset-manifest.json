@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Word-Scramble-Game/static/css/main.bf403f41.css",
+    "main.js": "/Word-Scramble-Game/static/js/main.ec28571a.js",
+    "index.html": "/Word-Scramble-Game/index.html",
+    "main.bf403f41.css.map": "/Word-Scramble-Game/static/css/main.bf403f41.css.map",
+    "main.ec28571a.js.map": "/Word-Scramble-Game/static/js/main.ec28571a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf403f41.css",
+    "static/js/main.ec28571a.js"
+  ]
+}
