@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { scrambleWord } from '../utils/scrambleWord';
+import { scrambleWord } from '../utils/scambledword';
 import words from '../assets/words.json';
 import Hint from './hint'
 import ScoreBoard from './scoreboard';
+import Timecount from './timecount';
 
 const Game = () => {
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -45,7 +46,7 @@ const Game = () => {
     return (
         <div>
             <h1>Word Scramble Game</h1>
-            <Timer duration={30} onTimeout={handleTimeout} />
+            <Timecount duration={30} onTimeout={handleTimeout} />
             <ScoreBoard score={score} />
             <p>Scrambled Word: {scrambledWord}</p>
             {showHint && <Hint hint={wordData.hint} />}
