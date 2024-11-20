@@ -50,7 +50,7 @@ const Game = () => {
   return (
     <div>
       <h1>Word Scramble Game</h1>
-      <Timecount duration={30} onTimeout={handleTimeout} />
+      <Timecount duration={60} onTimeout={handleTimeout} />
       <ScoreBoard score={score} />
       <p>Scrambled Word: {scrambledWord}</p>
       {showHint && <Hint hint={words[currentWordIndex].hint} />}
